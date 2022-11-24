@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TO-DO LIST</title>
+    <!-- <link rel="stylesheet" href="style1.css" /> -->
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: none;
+    }
+    .background {
+      background-image: url("background.png");
+    }
+    .form {
+      width: 50%;
+      /* top: 50%; */
+      /* left: 50%; */
+      /* transform: translate(-50%,-50%); */
+      border: 2px solid black;
+      padding: 2px 2px 2px 2px;
+      margin: auto;
+      background-color: rgb(142, 228, 228);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+
+    form input {
+      margin: 5px;
+    }
+  </style>
+  <body>
+    <div class="background"></div>
+    <div class="form">
+      <h1>Login</h1>
+      <form style="margin: 10px; padding: 10px">
+        <label>Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" placeholder="Your Name" />
+        <br />
+        <label>Password:</label>
+        <input type="password" placeholder="Your Password" />
+        <br />
+        <input type="submit" value="Log In" />
+      </form>
+    </div>
+  </body>
+</html>
